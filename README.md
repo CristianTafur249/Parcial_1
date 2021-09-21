@@ -1,4 +1,4 @@
 # Parcial 1
-Solución Parcial 1 programación web 
-Creador:
-Cristian David Tafur Campo
+<p>Solución Parcial 1 programación web<p> 
+<h1>Creador:<h1>
+<p>Cristian David Tafur Campo<p>
