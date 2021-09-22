@@ -23,11 +23,11 @@ body{
 .content-text {
     background: #fff;
     box-shadow: 0 0 20px 0 #181818;
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
-.content-text form div{
+.content-text div{
     
     margin: 0;
     padding: 1em;
@@ -46,7 +46,7 @@ body{
     border: solid 1px #ccc;
     padding: 10px;
     outline: 0;
-    width: 220px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,7 +68,7 @@ body{
     border: solid 1px #ccc;
     padding: 10px;
     outline: 0;
-    width: 200px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -109,6 +109,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .Bandera{
     width: auto;
     height: auto;
@@ -124,11 +125,27 @@ table{
     border-collapse: collapse;
 }
 #edit{
+    text-align: left;
     background: none;
     border: none;
-    width: 50px;
+    width: 60px;
     color: blue;
 }
+#edit:disabled{
+    width: 70px;
+    color: rgb(109, 106, 106);
+}
+#gusto:disabled,
+#porcn:disabled{
+    background: none;
+    border: none;
+    width: 60px; 
+}
+#gusto,
+#porcn{
+    width: 60px; 
+}
+
 th,td{
     border: solid 1px #e5e5e5;
     padding: 6px;
