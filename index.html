@@ -14,12 +14,12 @@
 <body>
     <h1 class="titu"><i class="logo">Web</i>Developer</h1>
     <div class="content-text">
-        <form action="resivido.html" method="GET">
+        <form id="formu" action="resivido.html" method="GET">
             <div class="form-control">
                 <h5 class="titu-form">formulario de afiliacion</h6>
             </div>
             <div class="form-control">
-                <input type="text"  name="Nombre" id="nombre" placeholder="Nombre completo">
+                <input type="text" name="Nombre" id="nombre" placeholder="Nombre completo">
                 <i class="fas fa-user"></i>
             </div>
             <div class="form-control">
@@ -31,40 +31,45 @@
                 <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
                 <i class="fas fa-phone"></i>
             </div>
-            <div class="form-control-gustos">
-                <input type="text" name="gustos" id="gustos">
-                <button class="Gt" id="boton"  onclick="guardar(), limpia()" type="button">Gustos</button>
-            </div>
-            <div class="form-control">
-                <div class="conten-gustos">
-                    <div class="Bandera"><i class="far fa-flag"></i></div>
-                    <div class="ctg">
-                        <table class="tabla">
-                            <thead>
-                                <th>Gusto</th>
-                                <th>%</th>
-                                <th>edit</th>
-                            </thead>
-                            <tbody id="res">
-                                
-                            </tbody>
-                        </table>
-                    </div>
+
+        
+        <div class="form-control-gustos">
+            <input type="text" name="gusto" id="gustos">
+            <button class="Gt" id="boton" onclick="guardar(), limpia()" type="button">Gustos</button>
+        </div>
+        <input type="text" id="porc" name="porc" hidden>
+        <div class="form-control">
+            <div class="conten-gustos">
+                <div class="Bandera"><i class="far fa-flag"></i></div>
+                <div class="ctg">
+                    
+                    <table class="tabla">
+                        <thead>
+                            <th>Gusto</th>
+                            <th>%</th>
+                            <th>edit</th>
+                        </thead>
+                        <tbody id="res">
+
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <div class="par">
-                Pulce Aceptar para guardar los cambios o cancelar para anularlos
-            </div>
-            <div class="form-control">
-                <button class="aceptar" type="submit">Aceptar</button>
-                <button class="can" type="reset">Cancelar</button>
-            </div>
-        </form>
+        </div>
+        <div class="par">
+            Pulce Aceptar para guardar los cambios o cancelar para anularlos
+        </div>
+    </form>
+        <div class="form-control">
+            <button type="submit" id="btnEnviar"onclick="enviar()" form="formu" class="aceptar" >Aceptar</button>
+            <button class="can" form="formu" onclick="limpiarT()" type="reset">Cancelar</button>
+        </div>
+
     </div>
     <Script src="js/comporta.js"></Script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh67Xc0jk=" crossorigin="anonymous"></script>
-   
+        
 </body>
 
 </html>
