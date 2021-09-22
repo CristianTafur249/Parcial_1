@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #e8ecef;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.titu{
+    text-align: center;
+    font-size: 3em;
+    color: #b3b3b3;
+}
+.titu i.logo{
+    color: #6e6e6e;
+}
+.content-text {
+    background: #fff;
+    box-shadow: 0 0 20px 0 #181818;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-text form div{
+    
+    margin: 0;
+    padding: 1em;
+    
+}
+
+.content-text form h5{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #b3b3b3;
+}
+.form-control input{
+    border-left: none;
+    border: solid 1px #ccc;
+    padding: 10px;
+    outline: 0;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control{
+    display: inline-block;
+    vertical-align: top;
+}
+.form-control i{
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-left: none;
+    margin: -3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form-control-gustos input{
+    
+    border-left: none;
+    border: solid 1px #ccc;
+    padding: 10px;
+    outline: 0;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control-gustos{
+    display: inline-block;
+    vertical-align: top;
+}
+.form-control-gustos .Gt{
+    
+    border: solid 1px rgb(42, 218, 19);
+    padding: 9px;
+    color: rgb(42, 218, 19);
+    background: #fff;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content-text .par{
+    color: rgb(109, 106, 106);
+
+}
+.aceptar{
+    border: solid 1px rgb(109, 106, 106);
+    background: #fff;
+    padding: 10px;
+    color: rgb(109, 106, 106) ;
+}
+.can{
+    border: solid 1px rgb(255, 0, 0);
+    background: #fff;
+    padding: 10px;
+    color: rgb(255, 0, 0) ;
+}
+.conten-gustos {
+    border-radius: 6px;
+    border: solid 1px #e5e5e5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Bandera{
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    background: #21993f;
+}
+.Bandera i{
+    border: none;
+}
+table{
+
+    border-radius: 5px;
+    border: solid 1px #e5e5e5;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px #e5e5e5;
+    padding: 6px;
+}
