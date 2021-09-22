@@ -83,6 +83,7 @@ body{
     color: rgb(42, 218, 19);
     background: #fff;
     width: 60px;
+    margin-left: -4px;
     margin-top: auto;
     margin-bottom: auto;
 }
