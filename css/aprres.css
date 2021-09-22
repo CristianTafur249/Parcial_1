@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #e8ecef;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.titu{
+    text-align: center;
+    font-size: 3em;
+    color: #181818;
+}
+.content-text {
+    background: #fff;
+    box-shadow: 0 0 20px 0 #181818;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content-text div{
+    
+    margin: 0;
+    padding: 1em;
+    border-radius: 6px;
+}
+.titulo{
+    background: #19a1b4;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.titulo .titu-ico{
+    float: left;
+}
+.titulo .nomb{
+    float: right;
+}
+
+.titu-ico{
+   width: 200px;
+}
+.nomb{
+    width: 200px;
+}
+#Nombre{
+    border: none;
+    width: 200px;
+    background: none;
+    color: #fff
+}
+#nombre{
+    border: none;
+    width: 200px;
+    background: none;
+    color: #fff
+}
+.cuerpo p{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr, 1fr;
+    display: inline-block;
+    vertical-align: top;
+}
+.cuerpo .email,
+.cuerpo .gusto,
+.cuerpo .tell,
+.cuerpo .porc{
+    float: right;
+}
+
+.Enun{
+    color: #19a1b4;
+    text-align: left;
+    size: 50px;
+}
+.email{
+    color: #fff;
+    background: #0368d7;
+    border-radius: 4px;
+    text-align: right;
+}
+.tell{
+    color: #fff;
+    background: #17a1b8;
+    border-radius: 4px;
+    text-align: right;
+}
+.gusto{
+    color: #fff;
+    background: #25a743;
+    border-radius: 4px;
+    text-align: right;
+}
+.porc{
+    color: #fff;
+    background: #dc3140;
+    border-radius: 4px;
+    text-align: right;
+}
+table{
+    
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+    padding: 6px;
+}
